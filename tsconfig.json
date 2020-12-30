@@ -1,0 +1,14 @@
+{
+  "include": ["src/**/*"],
+
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "dist",
+    "noImplicitAny": true
+  },
+  "typedocOptions": {
+    "entryPoints": ["src/sample.js"],
+    "out": "docs",
+    "logLevel": "Verbose"
+  }
+}
