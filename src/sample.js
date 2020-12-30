@@ -1,14 +1,5 @@
 /**
- * @typedef {number} AliasedNumber - an array type
+ * @typedef {Object} SpecialType - creates a new type named 'SpecialType'
  */
 
-/**
- * Pass-thru
- * @param {AliasedNumber} a - a parameter
- * @return {AliasedNumber} the value
- */
-function passThru ( a ) {
-  return a;
-}
-
-export { passThru }
+// Source: https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html#typedef-callback-and-param

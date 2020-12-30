@@ -3,7 +3,7 @@
 Reproducing a possible typedoc issue. I am able to use `tsc` via `npm run build` successfully and obtain the expected output, but `typedoc` via `npm run build:docs` yields the failed assertion:
 
 ```
-npm run build:docs
+npm run build:docs                                                                                                                    <<<
 
 > typedoc-repro@ build:docs /path/to/tsdoctest
 > typedoc
@@ -35,4 +35,3 @@ TypeDoc exiting with unexpected error:
   expected: true,
   operator: '==' }
 ```
-
