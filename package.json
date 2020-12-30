@@ -6,7 +6,7 @@
     "build:docs": "typedoc"
   },
   "devDependencies": {
-    "typedoc": "^0.20.5",
+    "typedoc": "^0.20.0-beta.33",
     "typescript": "^4.1.3"
   }
 }
