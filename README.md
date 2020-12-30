@@ -1,6 +1,6 @@
 # typedoc-repro
 
-Reproducing a possible typedoc issue. I am able to use `tsc` successfully and obtain the expected output, but `typedoc` yields the failed assertion:
+Reproducing a possible typedoc issue. I am able to use `tsc` via `npm run build` successfully and obtain the expected output, but `typedoc` via `npm run build:docs` yields the failed assertion:
 
 ```
 npm run build:docs
