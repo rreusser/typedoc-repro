@@ -9,7 +9,7 @@ npm run build:docs
 
 Reproducing a possible typedoc issue. I am able to use `tsc` via `npm run build` successfully and obtain the expected output, but `typedoc` via `npm run build:docs` yields the failed assertion:
 
-Reported at https://github.com/TypeStrong/typedoc/issues/1437
+Reported at [TypeStrong/typedoc#1437](https://github.com/TypeStrong/typedoc/issues/1437)
 
 ```
 npm run build:docs                                                                                                                    <<<
